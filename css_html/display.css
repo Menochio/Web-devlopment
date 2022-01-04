@@ -1,0 +1,23 @@
+h1{
+    width: 200px;
+    color: rgb(2, 31, 31);
+    background-color: aquamarine;
+    margin: 100px;
+    padding: 100px;
+}
+span{
+    color:#660000;
+    background-color: #F6DDCC;
+
+}
+p{
+    background-color: #660000;
+    background-color: #F1C40F;
+}
+span{
+    background-color: #F1C40F;
+    border:2px solid black;
+    color:aqua;
+    width:500px;
+    padding:20px;
+}

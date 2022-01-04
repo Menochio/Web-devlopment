@@ -1,0 +1,74 @@
+/* // universal selection(*) */
+/* *{
+    color:green;
+    background-color: darkcyan;
+} */
+*{
+    background-color:lightcoral
+}
+h1{
+    color:green;
+}
+p{
+    color:blue
+}
+#a{
+    font-size:larger;
+    width:100px;
+    color:greenyellow;
+    background-color: blueviolet;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+#b{
+    font-size:larger;
+    width:100px;
+    color:royalblue;
+    background-color: pink;
+}
+#b:hover{
+    color:#DAF7A6;
+    background-color: #900C3F;
+
+}
+.tag{
+    color:antiquewhite;
+    background-color:blueviolet
+}
+
+button{
+    color: darkgoldenrod;
+    font-size:large;
+    background-color: blueviolet;
+}
+#a:active{
+   background-color: #900C3F;
+}
+a{
+    text-decoration: none;
+    color: darkgreen;
+}
+/* descendant selector */
+ul li a{
+    color:red;
+}
+input[type="button"]{
+    width:100px;
+    color:white;
+    background-color: red;
+}
+input[type="email"]{
+    color:white;
+    background-color:brown
+}
+a[href="https://www.google.co.in/"]{
+    color:aqua;
+    background-color: blue;
+}
+a[href="https://www.google.co.in/"]:hover{
+    color:#0CCEB4;
+    background-color:#FF5733; 
+}
+h1:nth-of-type(2n){
+    background-color: lightseagreen;
+    color:#900C3F;
+}

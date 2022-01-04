@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMS DEMO</title>
+</head>
+
+<body>
+    <h1>Forms Demo</h1>
+    <form action="/menochio">
+        <div>
+            <label for="username">Enter your username:</label>
+            <input type="text" id="username" placeholder="username" name="username">
+        </div>
+        <div>
+            <label for="password">Enter your password:</label>
+            <input type="password" id="password" placeholder="passowrd">
+        </div>
+
+        <div>
+            <label for="Number">Enter your number:</label>
+            <input type="number" id="Number" placeholder="Enter Number">
+        </div>
+        <button>SUBMIT !!!(Data gets submitted)</button>
+        <button type="reset">Reset </button>
+
+    </form>
+    <form action="HTML_INTRO_Fish.html">
+        <input type="submit" value="CLICK ME PLEASE">
+    </form>
+    <hr>
+    <h2>Search in google</h2>
+    <form action="https://www.google.co.in/search">
+        <input type="text" name="q">
+        <button>Search in google</button>
+    </form>
+
+    <h2>Search in youtube</h2>
+    <form action="https://www.youtube.com/results">
+        <input type="text" name="search_query">
+        <button>Search in youtube</button>
+    </form>
+
+    <hr>
+    <h2>More in inputs</h2>
+    <form action="/Menochio"">
+    <input type=" checkbox" name="check" id="check">
+        <label for="check">Check</label>
+        <button>Checked</button>
+        <h3>SELECT YOUR SHIRT SIZE</h3>
+        <input type="radio" name="rad" id="XS" value="XS">
+        <label for="XS">Extra Small</label>
+        <input type="radio" name="rad" id="S" value="S">
+        <label for="S">Small</label>
+        <input type="radio" name="rad" id="M" value="M">
+        <label for="M">Medium</label>
+        <button>Submit</button>
+
+        <h3>PLEASE SELECT</h3>
+        <label for="sel">Select your burger</label>
+        <select name="sel" id="sel">
+            <option value="chess burger">Chess burger</option>
+            <option value="paneer burger">Paneer burger</option>
+            <option value="Chicken Burgers">Chicken Burgers</option>
+        </select>
+
+        <p>
+            <label for="request">Any suggestions</label>
+            <br>
+            <textarea name="req" id="request" cols="30" rows="10"
+                >Any suggestions you would like to give</textarea>
+        </p>
+        <button>Submit</button>
+    </form>
+
+</body>
+
+</html>

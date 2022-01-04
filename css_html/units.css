@@ -1,0 +1,25 @@
+section{
+    width:500px;
+    height:500px;
+    background-color: blue;
+    font-size:100px;
+}
+div{
+    width:2em;
+    height:2em;
+    background-color: brown;
+    
+}
+article{
+    font-size: 30px;
+}
+h2{
+    font-size: 2em;
+    margin-left:1em;
+}
+h3{
+    font-size:1.5em;
+}
+p{
+    font-size: 0.8em;
+}
